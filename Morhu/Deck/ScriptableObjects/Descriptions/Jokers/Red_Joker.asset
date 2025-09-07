@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2cda825bce548e4e916a67b061a4ab0, type: 3}
+  m_Name: Red_Joker
+  m_EditorClassIdentifier: 
+  Name: <b>Red Joker</b><br>
+  AbilityDescription: <color=#ffc126><b>Ability:</b></color> Swaps Hearts with the
+    enemy.
+  Aditional: 
+  CardDescriptionLocalizedDatas:
+  - Language: 0
+    Data:
+      Name: <b>Red Joker</b><br>
+      AbilityDescription: <color=#ffc126><b>Ability:</b></color> Swaps Hearts with
+        the enemy.
+      Aditional: 
+  - Language: 1
+    Data:
+      Name: "<b>\u0427\u0435\u0440\u0432\u043E\u043D\u0438\u0439 \u0414\u0436\u043E\u043A\u0435\u0440</b><br>"
+      AbilityDescription: "<color=#ffc126><b>\u0412\u043C\u0456\u043D\u043D\u044F:</b></color>
+        \u041E\u0431\u043C\u0456\u043D \u0441\u0435\u0440\u0446\u044F\u043C\u0438
+        \u0456\u0437 \u043E\u043F\u043E\u043D\u0435\u043D\u0442\u043E\u043C."
+      Aditional: 

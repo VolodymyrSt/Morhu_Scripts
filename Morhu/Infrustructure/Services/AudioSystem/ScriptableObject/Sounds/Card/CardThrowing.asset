@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84492dd5b96778e43b85fd7876522499, type: 3}
+  m_Name: CardThrowing
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c33244e82e715b844971d9cd1b040482, type: 3}
+  Mixer: {fileID: 0}
+  Loop: 0
+  PlayOnAwake: 0
+  FrequentSound: 0
+  Mute: 0
+  Priority: 128
+  Volume: 1
+  Pitch: 1
+  MinDistance: 1
+  MaxDistance: 500

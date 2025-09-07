@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0363366fc747547a3a16c1e8c7ef1c, type: 3}
+  m_Name: CompositionsHolder
+  m_EditorClassIdentifier: 
+  _compositions:
+  - CompositionCategory: 0
+    Sounds:
+    - Data: {fileID: 11400000, guid: 2c51b0adc9c167a47a1f471246b99bbe, type: 2}
+      ID: CardSelection
+    - Data: {fileID: 11400000, guid: 00b4819c07143b344b20812fab89eb66, type: 2}
+      ID: ThrowCard
+    - Data: {fileID: 11400000, guid: 0986089e4c43a254fa61cf4e68a86496, type: 2}
+      ID: GiveCard
+    - Data: {fileID: 11400000, guid: 3f91b4694368a4c42b57162bd48637c0, type: 2}
+      ID: StuffeDeck
+    - Data: {fileID: 11400000, guid: cc720bf8338051f4f98410493cdfdb38, type: 2}
+      ID: DissolveCard
+  - CompositionCategory: 2
+    Sounds:
+    - Data: {fileID: 11400000, guid: 9c0554d4242d0cf44aabf97efb3dc8ae, type: 2}
+      ID: UseMatches
+    - Data: {fileID: 11400000, guid: aae38e29f82baa84faf70f9cef560e93, type: 2}
+      ID: SelectItem
+    - Data: {fileID: 11400000, guid: 39ec37d1a55903a459b4e7102fb65d8c, type: 2}
+      ID: DissolveItem
+  - CompositionCategory: 3
+    Sounds:
+    - Data: {fileID: 11400000, guid: 4ee7fb1324cce954ab3113c0d8151d1a, type: 2}
+      ID: IgniteCandle
+    - Data: {fileID: 11400000, guid: 18af98a8591f23c4c96f5e859316e783, type: 2}
+      ID: BlowCandle
+  - CompositionCategory: 4
+    Sounds:
+    - Data: {fileID: 11400000, guid: f7e23f862a1c96f42afdf397b944e075, type: 2}
+      ID: BeatHeart
+    - Data: {fileID: 11400000, guid: f5faca5088101bf4ebc8bf583d886bb6, type: 2}
+      ID: KillHeart
+    - Data: {fileID: 11400000, guid: ff2faa4e6ea0e7c48ad8d27202370f05, type: 2}
+      ID: HealHeart
+  - CompositionCategory: 2
+    Sounds:
+    - Data: {fileID: 11400000, guid: 7e1bce13761b2d649ab84fd14bdd4275, type: 2}
+      ID: CloseItemPresenter
+    - Data: {fileID: 11400000, guid: b560b3845b7353043ac5f40d623a835e, type: 2}
+      ID: OpenItemPresenter
+  - CompositionCategory: 5
+    Sounds:
+    - Data: {fileID: 11400000, guid: 0e28d57e591e7524297079e359a9fdf3, type: 2}
+      ID: GameMusic
+  - CompositionCategory: 6
+    Sounds:
+    - Data: {fileID: 11400000, guid: 2dab86174b755e141b3ee702f0b79f76, type: 2}
+      ID: SelectButton
+    - Data: {fileID: 11400000, guid: 461a302108a24b94f8fef3eb1c68c17a, type: 2}
+      ID: ClickButton
+    - Data: {fileID: 11400000, guid: 977f392beaccd0441a2cd176d45e4920, type: 2}
+      ID: Victory
+    - Data: {fileID: 11400000, guid: c033ea9000bafe2458f2985080502ab7, type: 2}
+      ID: Lost
+  - CompositionCategory: 1
+    Sounds:
+    - Data: {fileID: 11400000, guid: 298d308fc96d4a14a8ddd6be9f5e4cf3, type: 2}
+      ID: Intro_En
+    - Data: {fileID: 11400000, guid: e2ef0bc89ae31fc4d8242cd07d6382cc, type: 2}
+      ID: Intro_Uk
+    - Data: {fileID: 11400000, guid: 4ff0cd9d7099f5b4a8dca2062aff7d51, type: 2}
+      ID: CharacterLost_Uk
+    - Data: {fileID: 11400000, guid: 373679edcb79c1f48b0559617df7464b, type: 2}
+      ID: CharacterLost_En
+    - Data: {fileID: 11400000, guid: 67d76095fb4dccd47bc571462b73603f, type: 2}
+      ID: PlayerLost_En
+    - Data: {fileID: 11400000, guid: bf356438d135d06409a709ea588baf6c, type: 2}
+      ID: PlayerLost_Uk
+  - CompositionCategory: 1
+    Sounds:
+    - Data: {fileID: 11400000, guid: fdbddcfb361c4c9478e6c63d06970550, type: 2}
+      ID: Speech1_En
+    - Data: {fileID: 11400000, guid: 05973d6b44e20d842982c5a88c8f1388, type: 2}
+      ID: Speech1_Uk
+    - Data: {fileID: 11400000, guid: 0c4c18cb50115fd4894767c0b19ce583, type: 2}
+      ID: Speech2_En
+    - Data: {fileID: 11400000, guid: 70ac0b7b3dc213e4fb17d62d8212159e, type: 2}
+      ID: Speech2_Uk
+    - Data: {fileID: 11400000, guid: 6b8f78b8ebc87c942a81e33ee955f4be, type: 2}
+      ID: Speech3_En
+    - Data: {fileID: 11400000, guid: 24950c111dc6439489c1edb1b534591a, type: 2}
+      ID: Speech3_Uk
+    - Data: {fileID: 11400000, guid: 6830be1999d17ed4e81ff18067bf709e, type: 2}
+      ID: Speech4_En
+    - Data: {fileID: 11400000, guid: 2837936e41fb93f448011b09ba37ecd7, type: 2}
+      ID: Speech4_Uk
+    - Data: {fileID: 11400000, guid: f8b0fd84a85d482438f0b7a2c1c99651, type: 2}
+      ID: Speech5_En
+    - Data: {fileID: 11400000, guid: 9e46690967913f54e903a02f1fe9e43f, type: 2}
+      ID: Speech5_Uk
+    - Data: {fileID: 11400000, guid: 9482f08eb08e7f446a8d3b048db2f9c7, type: 2}
+      ID: Speech6_En
+    - Data: {fileID: 11400000, guid: 51632c521f6278141818a9e0281dbe87, type: 2}
+      ID: Speech6_Uk
